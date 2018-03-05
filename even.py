@@ -1,9 +1,8 @@
-count = 0
-for i in range(10):
-   if i%2 != 0:
-    pass
-   else:
+num = int(input("enter your range for printing even number's : ")
+coun = 0
+for i in range(1, num+1):
+  if i % 2 == 0:
     print(i)
-	count += 1
-print("even numbers between is :" + str(count))
-input()
+	coun += 1
+print("Total number of even number between the 1 and {} is {}".format(num, coun)
+
