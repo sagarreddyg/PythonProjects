@@ -1,7 +1,7 @@
 def getinput1():
     num1 = int(input("Please enter the range Up to get feb : "))
     if num1 <= 0:
-        print("Enter valid input other than Zero and Positive Number ")
+        print("Please Enter Positive Number and other than Zero")
         num1 = getinput1()
     return num1
 def getans():
@@ -17,7 +17,7 @@ def getans():
             print(a, end=" ")
             a, b = b, a
             b += a
-            if a > num01 + 1:
+            if a > num01:
                 break
 
 getans()
