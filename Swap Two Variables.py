@@ -3,7 +3,7 @@ def getinput1():
         num1 = int(input("Please enter your first number for swap: "))
     except ValueError:
         print("Please enter your number's only")
-        getinput1()
+        num1 = getinput1()
     else:
         return num1
 def getinput2():
@@ -11,7 +11,7 @@ def getinput2():
         num2 = int(input("Please enter your second number for swap "))
     except ValueError:
         print("Please enter your number's only")
-        getinput2()
+        num2 = getinput2()
     else:
         return num2
 def main():
